@@ -1,4 +1,5 @@
 # vagrantTips
+**WARNING**: Deleting **ALL VMS IN THE SYSTEM**
 ```
 IDsVMs=($(VBoxManage list vms | awk -F '[{}]' '{print $2}'))
 
